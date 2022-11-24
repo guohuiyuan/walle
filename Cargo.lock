@@ -1328,6 +1328,7 @@ dependencies = [
  "tracing",
  "tracing-subscriber",
  "walle-core",
+ "walle-plugin-example",
  "walle-plugin-wakatime",
 ]
 
@@ -1365,6 +1366,13 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "walle-plugin-example"
+version = "0.1.0"
+dependencies = [
+ "walle",
 ]
 
 [[package]]
